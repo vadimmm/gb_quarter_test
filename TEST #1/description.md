@@ -38,4 +38,4 @@ __Примеры__\:
 
 ## 3\. README.md
 
-Файл README.md доступен по ссылке: <https://github.com/vadimmm/gb_quarter_test/TEST%20#01/README.md>
+Файл README.md доступен по ссылке: <https://github.com/vadimmm/gb_quarter_test/blob/test_01/README.md>
