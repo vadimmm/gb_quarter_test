@@ -1,8 +1,18 @@
-﻿string[] arrayInput = new string[] {"hello", "2", "world", ":-)"};
+﻿// Задача: Написать программу, которая из имеющегося массива строк формирует массив из строк, 
+// длина которых меньше либо равна 3 символа. Первоначальный массив можно ввести с клавиатуры,
+// либо задать на старте выполнения алгоритма.
+/////////////////////////////////////////////////////////////////////////////
+
+// Массив с вводными данными
+string[] arrayInput = new string[] {"hello", "2", "world", ":-)"};
+// Массив для собра результатирующих данных
 string[] arrayResult = new string[arrayInput.GetLength(0)];
+
+// Число из условия задачи
 int ControlLength = 3;
 
 void DisplayStringArray(string[] array)
+// Отображение не пустых строк одномерного массива
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -32,11 +42,3 @@ for (int i = 0; i < arrayInput.GetLength(0); i++)
 
 Console.WriteLine("\nОТВЕТ: Значения добавленные во второй массив:");
 DisplayStringArray(arrayResult);
-
-// for (int i = 0; i < arrayResult.GetLength(0); i++)
-// {
-//     if (arrayResult[i] != null)
-//     {
-//         Console.WriteLine($"{arrayResult[i]}");
-//     }
-// }
